@@ -1,0 +1,51 @@
+function tellFortune(X,Y,Z,N){
+  let result= "You will be an " + X + "in"+ Y + "and married to " + Z + "with " + N + " kids."
+  return result
+}
+console.log(tellFortune("accountant "," lekki ","tosin ", 12))
+
+function calculateDogAge(x){
+  let result= "Your doggie is " + 7*x + " years old " + " in dog years!"
+  return result
+}
+console.log(calculateDogAge(4))
+console.log(calculateDogAge(7))
+console.log(calculateDogAge(9))
+
+
+function calculateSupply(x,y){
+  let result= "You will need " + x*y + " to last you until the ripe old age of " + x
+  return result
+}
+console.log(calculateSupply(42,9))
+console.log(calculateSupply(80,2))
+console.log(calculateSupply(35,4))
+
+
+function calCircumference(r){
+  let circumference=2*3.142*r
+  let result= "The circumference is " + circumference
+  return result
+}
+console.log(calCircumference(12))
+function calcArea(r){
+  let Area= 3.142*r*r
+  let result= "The area is " + Area
+  return result
+}
+console.log(calcArea(4))
+
+
+function celsiusToFahrenheit(c){
+  let formular= (1.8*c) + 32
+  let Answer= c + " celsius is " +formular+ " fahreheit"
+  return Answer
+  }
+console.log(celsiusToFahrenheit(20))
+
+function fahrenheitToCelsius(f){
+  let formular=  0.5*(f-32) 
+  let Solution= f + " fahrenheit is " +formular+ " celsius"
+  return Solution
+}
+console.log(fahrenheitToCelsius(60)) 
